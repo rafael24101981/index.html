@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de las Leyes de Newton</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simulación de las Leyes de Newton</h1>
+        <div class="input-container">
+            <label for="mass">Masa (kg):</label>
+            <input type="number" id="mass" step="0.1" value="1">
+            <label for="force">Fuerza (N):</label>
+            <input type="number" id="force" step="0.1" value="10">
+            <button onclick="applyForce()">Aplicar Fuerza</button>
+        </div>
+        <div id="sketch-holder"></div>
+    </div>
+</body>
+
+</html>
